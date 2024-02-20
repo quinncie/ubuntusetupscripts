@@ -4,3 +4,4 @@ echo 'PATH=/home/$USER/.local/bin:"$PATH"' >> ~/.bashrc
 source ~/.bashrc
 echo 'eval "$(zoxide init --cmd cd bash)"' >> ~/.bashrc
 source ~/.bashrc
+exec bash
