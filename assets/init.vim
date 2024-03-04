@@ -14,6 +14,7 @@ Plug 'deoplete-plugins/deoplete-jedi'
 Plug 'jiangmiao/auto-pairs'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'github/copilot.vim'
+Plug 'rust-lang/rust.vim'
 " Initialize plugin system
 call plug#end()
 
