@@ -11,4 +11,5 @@ cd nerd-fonts
 cd ~
 sudo rm -r nerd-fonts
 git clone https://github.com/LazyVim/starter ~/.config/nvim
+curl -fLo ~/.config/nvim/lua/plugins/colorscheme.lua --create-dirs https://raw.githubusercontent.com/quinncie/ubuntusetupscripts/main/assets/colorscheme.lua
 nvim
