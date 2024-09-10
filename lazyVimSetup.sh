@@ -5,6 +5,7 @@ cd neovim
 make CMAKE_BUILD_TYPE=RelWithDebInfo 
 sudo make install 
 cd ~
+rm -rf neovim
 git clone https://github.com/ryanoasis/nerd-fonts.git
 cd nerd-fonts
 ./install.sh
