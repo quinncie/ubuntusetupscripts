@@ -1,4 +1,4 @@
-sudo apt-get
+sudo apt-get update
 sudo apt-get install ninja-build gettext cmake g++ unzip curl git-all libstdc++6
 git clone https://github.com/neovim/neovim
 cd neovim
